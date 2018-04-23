@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:id="@+id/purple_calves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/purple_calves"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/contributions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20sp"
+            android:paddingBottom="15dp"
+            android:text="@string/contributions_by"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/kristen_weber_front_end"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/nick_torres_android"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/rachel_harvey_ios"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/seth_winslow_database_and_api"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>
